@@ -1,7 +1,7 @@
 # An Analysis of Kickstarter Campaigns
 ---
 ## Brief Description of Project
-* Around 4,000 Kickstarter campaigns were analyzed
+* Approx. 4,000 Kickstarter campaigns were analyzed
 * Campaigns were analyzed with the purpose of uncovering trends (e.g. Correlation between campaign success and month) to aid Louise in executing an optimal Kickstarter campaign for her play.
 ---
 ## Recommendations
