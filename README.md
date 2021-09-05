@@ -61,3 +61,6 @@ I encountered a few challenges whilst completing deliverable 1:
 1. A graph that groups the theatre/plays campaigns by their outcomes (successful, failed, canceled) and compares the length of time the campaign was active before reaching an outcome. 
   * I believe this could give Louise a better sense of how long it has historically taken for similar campaigns to reach their goals, thereby allowing Louise to possibly gauge how long she should wait before it would be time to maybe try something else to raise her desired capital.
 2. A graph that combines the two variables already analyzed. This table/graph would potentially allow Louise to uncover which variable is potentially more important.
+---
+##Note
+* I deleted the 'Descriptive Statistics' sheet from the Excel file copy I am uploading even though the instructions did not say to remove it because all of the cells were returning reference errors since their formulas were derived from the Successful / Failed sheets, which the instructions did say to remove, so it made no sense to keep it in.
