@@ -16,7 +16,7 @@
 ---
 ### Deliverable 1 Analysis:
 1. I began this deliverable by adding a "Years" column to the existing main sheet (Kickstarter data) using the "Year()" function like so:
-  * ![Year Function Formula](Module_1_Kickstarter Analysis/Years_Function.png)
+  * ![title](Images/COUNTIFS_Formula.png)
 2 I then created a pivot table from the Kickstarter worksheet, and placed the pivot table in a new sheet. I also titled the Pivot table "Theatre Outcomes by Launch Date", and placed the appropriate pivot table fields in the columns, rows, values, and filters fields. Lastly, I used the Parent Category filter to filter the pivot table to include only the data that fell under the 'Theatre' parent category. After that, my pivot table looked like the following image:
   * ![Pivot Table](Module_1_Kickstarter Analysis/Pivot_Table_1.png)
 3 Next, I created a pivot line chart from the pivot table to visualize the relationship between outcomes and campaign launch month:
