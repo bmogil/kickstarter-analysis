@@ -14,20 +14,20 @@
 
 ## Analysis and Challenges
 ---
-### Deliverable 1 Analysis
-1 I began this deliverable by adding a "Years" column to the existing main sheet (Kickstarter data) using the "Year()" function like so:
+### Deliverable 1 Analysis:
+1. I began this deliverable by adding a "Years" column to the existing main sheet (Kickstarter data) using the "Year()" function like so:
   * ![Year Function Formula](Module_1_Kickstarter Analysis/Years_Function.png)
 2 I then created a pivot table from the Kickstarter worksheet, and placed the pivot table in a new sheet. I also titled the Pivot table "Theatre Outcomes by Launch Date", and placed the appropriate pivot table fields in the columns, rows, values, and filters fields. Lastly, I used the Parent Category filter to filter the pivot table to include only the data that fell under the 'Theatre' parent category. After that, my pivot table looked like the following image:
   * ![Pivot Table](Module_1_Kickstarter Analysis/Pivot_Table_1.png)
 3 Next, I created a pivot line chart from the pivot table to visualize the relationship between outcomes and campaign launch month:
   * ![Theatre Outcomes Based on Launch Date Pivot Chart](Resources/Theatre_Outcomes_vs_Launch.png)
 ---
-### Deliverable 1 Challenges
+### Deliverable 1 Challenges:
 I encountered a few challenges whilst completing deliverable 1:
 1. When I made the pivot table for this deliverable, I found that the 'rows' pivot field was suddenly populated with two other fields, which I did not intend for. Further, this was causing my pivot table rows to be based on the campaign launch date year rather than month. I was stuck for around 5 minutes, and then decided to simply drag the rows out into the excel sheet which I learned from Googling it, and sure enough, this solved the problem.
 2. The other challenge I encountered occurred while I was trying to sort the campaign outcomes in descending order so the campaign outcome "successful" was first. I attempted to find a solution via Google but originally, I was unsuccessful. I ended up leaving it for a few days, writing the issue down, and circling back to it a few days later. I sat thinking about it for a bit and then I simply tried selecting the pivot table column like I would select a normal excel sheet column, and moved it like I would a normal excel sheet column. This worked perfectly and my problem was solved.
 ---
-### Deliverable 2 Analysis
+### Deliverable 2 Analysis:
 1. I started this deliverable by creating a new sheet and naming it "Outcomes Based on Goals". Then, I created the columns listed out in the instructions to hold the data.
 2. Then, I created the rows, (goal value ranges/bins) as per the instructions, to look like the following:
   * ![Goal Ranges](Module_1_Kickstarter Analysis/Goal_Ranges.png)
@@ -36,17 +36,17 @@ I encountered a few challenges whilst completing deliverable 1:
   * ![COUNTIFS() Formula](Module_1_Kickstarter Analysis/COUNTIFS_Formula.png)
 4. Lastly, I populated the rest of the columns appropriately using the SUM formula.
 ---
-### Deliverable 2 Challenges
+### Deliverable 2 Challenges:
 1. I had no challenges for deliverable 2. However, if I am brainstorming what challenges there could have been, I would say creating the correct COUNTIFS statement could have been challenging if I hadn't frequently used this specific function during my past Summer internship.
 ---
 ## Results
 ---
 
-### Two Conclusions I Drew Based on the Theatre Outcomes by Launch Date Analysis
+### Two Conclusions I Drew Based on the Theatre Outcomes by Launch Date Analysis:
 1. The months of May and June clearly share a strong correlation with successful campaigns. Therefore, I would recommended Louise launch her campaign sometime in May or June.
 2. It seems that the month of December would be the worst time for Louise to launch her camapaign because December possesses the highest percentage of failed outcomes.
 
-### One Conclusion I Drew from the Outcomes Based on Goals Analysis
+### One Conclusion I Drew from the Outcomes Based on Goals Analysis:
 1. One conclusion I would like to draw from this analysis revolves around the successful campaign percentage difference between two separate ranges. Specifically, campaigns with a goal of less than $1000, between $1000-$4999, and between $5000-$9999. Campaigns with a goal of less than $1000 had a success rate of 75.81%, while those with a goal between $1000-$4999 had a success rate of 72.61%. Moreover, the next bucket ($5000-$9999) had a success rate of 55.03%. Additionally, it is clear that Louise wants to raise more than $1000. Therefore, given the 17.58% drop in successful campaigns between the $1000-$4999 goal and the $5000-$9999 goal, I strongly recommend Louise remains in the $1000-$4999 campaign goal range.
 ---
 
