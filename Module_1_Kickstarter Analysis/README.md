@@ -20,7 +20,7 @@
 2. I then created a pivot table from the Kickstarter worksheet, and placed the pivot table in a new sheet. I also titled the Pivot table "Theatre Outcomes by Launch Date", and placed the appropriate pivot table fields in the columns, rows, values, and filters fields. Lastly, I used the Parent Category filter to filter the pivot table to include only the data that fell under the 'Theatre' parent category. After that, my pivot table looked like the following image:
   * ![](Images/Pivot_Table_1.png)
 3. Next, I created a pivot line chart from the pivot table to visualize the relationship between outcomes and campaign launch month:
-  * ![](Images/Outcomes_Based_on_Launch_Date.png)
+  * ![](Resources/Theatre_Outcomes_vs_Launch.png)
 ---
 ### Deliverable 1 Challenges:
 I encountered a few challenges whilst completing deliverable 1:
@@ -34,7 +34,10 @@ I encountered a few challenges whilst completing deliverable 1:
   * Note: I believe I found an error in how the last bucket/range is listed in the instructions because it says "Greater than 50000". Furthermore, the preceeding range is listed as "45000 to 49999". Therefore, if the next row were to be "Greater than 50000", it would not be accounting for any campaign goal set at exactly 50000. Hence, I changed my last range to correct this.
 3. I used the 'COUNTIFS()' function to populate the "Number Successful", "Number Failed", and "Number Canceled" columns by filtering the Kickstarter "outcome" column, the "goal" amount column using the goal ranges, and on the "Subcategory" column using "plays" as the criteria. The formula I used is displayed in the image below:
   * ![](Images/COUNTIFS_Formula.png)
-4. Lastly, I populated the rest of the columns appropriately using the SUM formula.
+4. Then, I populated the rest of the columns appropriately using the SUM formula. 
+5. Lastly, I created a line chart with the goal-amount ranges on the x-axis, the percentage of successful, failed, or canceled campaigns on the y-axis, and titled it appropriately. The chart can be seen below:
+  *![](Resources/Outcomes_vs_Goals.png)
+
 ---
 ### Deliverable 2 Challenges:
 1. I had no challenges for deliverable 2. However, if I am brainstorming what challenges there could have been, I would say creating the correct COUNTIFS statement could have been challenging if I hadn't frequently used this specific function during my past Summer internship.
