@@ -4,7 +4,7 @@
 ## Overview of Project
 ---
 ### Background
-* The background of this analysis is fairly simple: To help Louise optimally execute the Kickstarter campaign for her play by identifying trends from relevant historical Kickstarter campaign data and drawing implications. However, the purpose of the specific analysis conducted for deliverables 1 and 2 of this module's challenge is twofold, as expressed in the next paragraph.
+  * The background of this analysis is fairly simple: To help Louise optimally execute the Kickstarter campaign for her play by identifying trends from relevant historical Kickstarter campaign data and drawing implications. However, the purpose of the specific analysis conducted for deliverables 1 and 2 of this module's challenge is twofold, as expressed in the next paragraph.
 ### Purpose
 1. To observe any patterns/trends that presented themselves upon analyzing the total number of each campaign outcome (successful, failed, and canceled) that fell under the parent category 'theatre', while simultaneously observing the month each campaign outcome was launched.
 * Further, I would say the purpose of this particular analysis was to determine whether or not there was a signficant correlation between a theatre camapign outcome and one or more campaign launched dates classified by month.
@@ -37,7 +37,7 @@ I encountered a few challenges whilst completing deliverable 1:
 4. Lastly, I populated the rest of the columns appropriately using the SUM formula.
 ---
 ### Deliverable 2 Challenges
-1 I had no challenges for deliverable 2. However, if I am brainstorming what challenges there could have been, I would say creating the correct COUNTIFS statement could have been challenging if I hadn't frequently used this specific function during my past Summer internship.
+1. I had no challenges for deliverable 2. However, if I am brainstorming what challenges there could have been, I would say creating the correct COUNTIFS statement could have been challenging if I hadn't frequently used this specific function during my past Summer internship.
 ---
 ## Results
 ---
