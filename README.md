@@ -4,23 +4,23 @@
 ## Overview of Project
 ---
 ### Background
-  * The background of this analysis is fairly simple: To help Louise optimally execute the Kickstarter campaign for her play by identifying trends from relevant historical Kickstarter campaign data and drawing implications. However, the purpose of the specific analysis conducted for deliverables 1 and 2 of this module's challenge is twofold, as expressed in the next paragraph.
+* The background of this analysis is fairly simple: To help Louise optimally execute the Kickstarter campaign for her play by identifying trends from relevant historical Kickstarter campaign data and drawing implications. However, the purpose of the specific analysis conducted for deliverables 1 and 2 of this module's challenge is twofold, as expressed in the next paragraph.
 ### Purpose
 1. To observe any patterns/trends that presented themselves upon analyzing the total number of each campaign outcome (successful, failed, and canceled) that fell under the parent category 'theatre', while simultaneously observing the month each campaign outcome was launched.
-* Further, I would say the purpose of this particular analysis was to determine whether or not there was a signficant correlation between a theatre camapign outcome and one or more campaign launched dates classified by month.
+  * Further, I would say the purpose of this particular analysis was to determine whether or not     there was a signficant correlation between a theatre camapign outcome and one or more campaign     launched dates classified by month.
 2. To observe any patterns/trends that presented themselves upon analyzing the total percentage of campaign outcomes that fell under the subcategory 'plays', while categorizing the campaign outcomes by their pre-setout goals using an array of ranges to represent all of the data.
-* Putting all the data into different buckets provides a much clearer picture because we can then observe if any or all campaign goals are signifcantly correlated with any outcome, thereby allowing us to determine if setting Louise's goal too high/low could be detrimental to achieving a successful outcome.
+  * Putting all the data into different buckets provides a much clearer picture because we can       then observe if any or all campaign goals are signifcantly correlated with any outcome, thereby   allowing us to determine if setting Louise's goal too high/low could be detrimental to achieving   a successful outcome.
 ---
 
 ## Analysis and Challenges
 ---
 ### Deliverable 1 Analysis
 1 I began this deliverable by adding a "Years" column to the existing main sheet (Kickstarter data) using the "Year()" function like so:
-* ![Year Function Formula](Module_1_Kickstarter Analysis/Years_Function.png)
+  * ![Year Function Formula](Module_1_Kickstarter Analysis/Years_Function.png)
 2 I then created a pivot table from the Kickstarter worksheet, and placed the pivot table in a new sheet. I also titled the Pivot table "Theatre Outcomes by Launch Date", and placed the appropriate pivot table fields in the columns, rows, values, and filters fields. Lastly, I used the Parent Category filter to filter the pivot table to include only the data that fell under the 'Theatre' parent category. After that, my pivot table looked like the following image:
-* ![Pivot Table](Module_1_Kickstarter Analysis/Pivot_Table_1.png)
+  * ![Pivot Table](Module_1_Kickstarter Analysis/Pivot_Table_1.png)
 3 Next, I created a pivot line chart from the pivot table to visualize the relationship between outcomes and campaign launch month:
-* ![Theatre Outcomes Based on Launch Date Pivot Chart](Resources/Theatre_Outcomes_vs_Launch.png)
+  * ![Theatre Outcomes Based on Launch Date Pivot Chart](Resources/Theatre_Outcomes_vs_Launch.png)
 ---
 ### Deliverable 1 Challenges
 I encountered a few challenges whilst completing deliverable 1:
@@ -30,10 +30,10 @@ I encountered a few challenges whilst completing deliverable 1:
 ### Deliverable 2 Analysis
 1. I started this deliverable by creating a new sheet and naming it "Outcomes Based on Goals". Then, I created the columns listed out in the instructions to hold the data.
 2. Then, I created the rows, (goal value ranges/bins) as per the instructions, to look like the following:
-* ![Goal Ranges](Module_1_Kickstarter Analysis/Goal_Ranges.png)
-* Note: I believe I found an error in how the last bucket/range is listed in the instructions because it says "Greater than 50000". Furthermore, the preceeding range is listed as "45000 to 49999". Therefore, if the next row were to be "Greater than 50000", it would not be accounting for any campaign goal set at exactly 50000. Hence, I changed my last range to correct this.
+  * ![Goal Ranges](Module_1_Kickstarter Analysis/Goal_Ranges.png)
+  * Note: I believe I found an error in how the last bucket/range is listed in the instructions because it says "Greater than 50000". Furthermore, the preceeding range is listed as "45000 to 49999". Therefore, if the next row were to be "Greater than 50000", it would not be accounting for any campaign goal set at exactly 50000. Hence, I changed my last range to correct this.
 3. I used the 'COUNTIFS()' function to populate the "Number Successful", "Number Failed", and "Number Canceled" columns by filtering the Kickstarter "outcome" column, the "goal" amount column using the goal ranges, and on the "Subcategory" column using "plays" as the criteria. The formula I used is displayed in the image below:
-* ![COUNTIFS() Formula](Module_1_Kickstarter Analysis/COUNTIFS_Formula.png)
+  * ![COUNTIFS() Formula](Module_1_Kickstarter Analysis/COUNTIFS_Formula.png)
 4. Lastly, I populated the rest of the columns appropriately using the SUM formula.
 ---
 ### Deliverable 2 Challenges
@@ -59,5 +59,5 @@ I encountered a few challenges whilst completing deliverable 1:
 ###What are some other possible tables and/or graphs that we could create?
 * Some other possible tables and/or graphs that we could create include: 
 1. A graph that groups the theatre/plays campaigns by their outcomes (successful, failed, canceled) and compares the length of time the campaign was active before reaching an outcome. 
-* I believe this could give Louise a better sense of how long it has historically taken for similar campaigns to reach their goals, thereby allowing Louise to possibly gauge how long she should wait before it would be time to maybe try something else to raise her desired capital.
+  * I believe this could give Louise a better sense of how long it has historically taken for similar campaigns to reach their goals, thereby allowing Louise to possibly gauge how long she should wait before it would be time to maybe try something else to raise her desired capital.
 2. A graph that combines the two variables already analyzed. This table/graph would potentially allow Louise to uncover which variable is potentially more important.
