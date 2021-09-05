@@ -16,11 +16,11 @@
 ---
 ### Deliverable 1 Analysis:
 1. I began this deliverable by adding a "Years" column to the existing main sheet (Kickstarter data) using the "Year()" function like so:
-  * ![](COUNTIFS_Formula.png)
+  * ![](Images/Year_Function.png)
 2. I then created a pivot table from the Kickstarter worksheet, and placed the pivot table in a new sheet. I also titled the Pivot table "Theatre Outcomes by Launch Date", and placed the appropriate pivot table fields in the columns, rows, values, and filters fields. Lastly, I used the Parent Category filter to filter the pivot table to include only the data that fell under the 'Theatre' parent category. After that, my pivot table looked like the following image:
   * ![](Images/Pivot_Table_1.png)
 3. Next, I created a pivot line chart from the pivot table to visualize the relationship between outcomes and campaign launch month:
-  * ![Theatre Outcomes Based on Launch Date Pivot Chart](Resources/Theatre_Outcomes_vs_Launch.png)
+  * ![](Images/Outcomes_Based_on_Launch_Date.png)
 ---
 ### Deliverable 1 Challenges:
 I encountered a few challenges whilst completing deliverable 1:
@@ -30,10 +30,10 @@ I encountered a few challenges whilst completing deliverable 1:
 ### Deliverable 2 Analysis:
 1. I started this deliverable by creating a new sheet and naming it "Outcomes Based on Goals". Then, I created the columns listed out in the instructions to hold the data.
 2. Then, I created the rows, (goal value ranges/bins) as per the instructions, to look like the following:
-  * ![Goal Ranges](Module_1_Kickstarter Analysis/Goal_Ranges.png)
+  * ![](Images/Goal_Ranges.png)
   * Note: I believe I found an error in how the last bucket/range is listed in the instructions because it says "Greater than 50000". Furthermore, the preceeding range is listed as "45000 to 49999". Therefore, if the next row were to be "Greater than 50000", it would not be accounting for any campaign goal set at exactly 50000. Hence, I changed my last range to correct this.
 3. I used the 'COUNTIFS()' function to populate the "Number Successful", "Number Failed", and "Number Canceled" columns by filtering the Kickstarter "outcome" column, the "goal" amount column using the goal ranges, and on the "Subcategory" column using "plays" as the criteria. The formula I used is displayed in the image below:
-  * ![COUNTIFS() Formula](Module_1_Kickstarter Analysis/COUNTIFS_Formula.png)
+  * ![](Images/COUNTIFS_Formula.png)
 4. Lastly, I populated the rest of the columns appropriately using the SUM formula.
 ---
 ### Deliverable 2 Challenges:
