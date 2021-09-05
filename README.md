@@ -7,16 +7,16 @@
 * The background of this analysis is fairly simple: To help Louise optimally execute the Kickstarter campaign for her play by identifying trends from relevant historical Kickstarter campaign data and drawing implications. However, the purpose of the specific analysis conducted for deliverables 1 and 2 of this module's challenge is twofold, as expressed in the next paragraph.
 ### Purpose
 1. To observe any patterns/trends that presented themselves upon analyzing the total number of each campaign outcome (successful, failed, and canceled) that fell under the parent category 'theatre', while simultaneously observing the month each campaign outcome was launched.
-  * Further, I would say the purpose of this particular analysis was to determine whether or not     there was a signficant correlation between a theatre camapign outcome and one or more campaign     launched dates classified by month.
+  * Further, I would say the purpose of this particular analysis was to determine whether or not there was a signficant correlation between a theatre camapign outcome and one or more campaign launched dates classified by month.
 2. To observe any patterns/trends that presented themselves upon analyzing the total percentage of campaign outcomes that fell under the subcategory 'plays', while categorizing the campaign outcomes by their pre-setout goals using an array of ranges to represent all of the data.
-  * Putting all the data into different buckets provides a much clearer picture because we can       then observe if any or all campaign goals are signifcantly correlated with any outcome, thereby   allowing us to determine if setting Louise's goal too high/low could be detrimental to achieving   a successful outcome.
+  * Putting all the data into different buckets provides a much clearer picture because we can then observe if any or all campaign goals are signifcantly correlated with any outcome, thereby   allowing us to determine if setting Louise's goal too high/low could be detrimental to achieving   a successful outcome.
 ---
 
 ## Analysis and Challenges
 ---
 ### Deliverable 1 Analysis:
 1. I began this deliverable by adding a "Years" column to the existing main sheet (Kickstarter data) using the "Year()" function like so:
-  * !(Images/COUNTIFS_Formula.png)
+  * ![](Images/COUNTIFS_Formula.png)
 2 I then created a pivot table from the Kickstarter worksheet, and placed the pivot table in a new sheet. I also titled the Pivot table "Theatre Outcomes by Launch Date", and placed the appropriate pivot table fields in the columns, rows, values, and filters fields. Lastly, I used the Parent Category filter to filter the pivot table to include only the data that fell under the 'Theatre' parent category. After that, my pivot table looked like the following image:
   * ![Pivot Table](Module_1_Kickstarter Analysis/Pivot_Table_1.png)
 3 Next, I created a pivot line chart from the pivot table to visualize the relationship between outcomes and campaign launch month:
