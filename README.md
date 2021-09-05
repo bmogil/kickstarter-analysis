@@ -50,17 +50,17 @@ I encountered a few challenges whilst completing deliverable 1:
 1. One conclusion I would like to draw from this analysis revolves around the successful campaign percentage difference between two separate ranges. Specifically, campaigns with a goal of less than $1000, between $1000-$4999, and between $5000-$9999. Campaigns with a goal of less than $1000 had a success rate of 75.81%, while those with a goal between $1000-$4999 had a success rate of 72.61%. Moreover, the next bucket ($5000-$9999) had a success rate of 55.03%. Additionally, it is clear that Louise wants to raise more than $1000. Therefore, given the 17.58% drop in successful campaigns between the $1000-$4999 goal and the $5000-$9999 goal, I strongly recommend Louise remains in the $1000-$4999 campaign goal range.
 ---
 
-###What are some limitations of this dataset?
+### What are some limitations of this dataset?
 * It is possible that the data is not accounting for other relevant variables that could alter the final results. For example, there is no data on what percentage of canceled campaigns were canceled because they ended up raising their funds in other ways.
 * Also, there was no economic, societal, or other external factors that were evaluated in our analysis. For example, what if there was a decline in people going to plays in April of 2016 due to a series of violent protestors that chose to protest outside of an area with many theatres. Events like this could cause people to notice this and subsequently not donate to these types of campaigns during that specific time, which could skew the data.
 * The data could not be paint an accurate picture of how people living in the area where Louise wants to conduct her play would react to her campaign. For example, since we don't have data on each campaign's city, (where they will be doing whatever they're doing) most of the theatre/plays data could have come from certain areas that strongly like or dislike plays. Meanwhile, the people from the city where Louise wants to put on her production may really want to invest in her play to make it excellent, in which case, a higher goal than $4-$4999 would be appropriate.
 
 
-###What are some other possible tables and/or graphs that we could create?
+### What are some other possible tables and/or graphs that we could create?
 * Some other possible tables and/or graphs that we could create include: 
 1. A graph that groups the theatre/plays campaigns by their outcomes (successful, failed, canceled) and compares the length of time the campaign was active before reaching an outcome. 
   * I believe this could give Louise a better sense of how long it has historically taken for similar campaigns to reach their goals, thereby allowing Louise to possibly gauge how long she should wait before it would be time to maybe try something else to raise her desired capital.
 2. A graph that combines the two variables already analyzed. This table/graph would potentially allow Louise to uncover which variable is potentially more important.
 ---
-##Note
+## Note
 * I deleted the 'Descriptive Statistics' sheet from the Excel file copy I am uploading even though the instructions did not say to remove it because all of the cells were returning reference errors since their formulas were derived from the Successful / Failed sheets, which the instructions did say to remove, so it made no sense to keep it in.
